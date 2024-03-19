@@ -114,7 +114,7 @@ export default function Footer() {
                                         position: 'absolute', right: 0, top: "1.5px",
                                         border: '3px solid white',
                                         width: "122px",
-                                        height: "38px", borderRadius: 20,
+                                        height: "42px", borderRadius: 20,
                                         background: "#FF6057", color: "white"
                                     }}>Subscribe</button>
 

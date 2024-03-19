@@ -1,19 +1,19 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
-import Footer from '../Footer/Footer';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 import { Stack } from '@mui/material';
 import firstSection from '../../assets/firstSection.png';
 import bg2 from '../../assets/bg2.png';
-import AboutUs from '../Home/AboutUs/AboutUs';
+import AboutUs from '../../components/Home/AboutUs/AboutUs';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from '../../utils/theme';
-import Business from '../Home/Business/Business';
-import Platform from '../Home/Platform/Platform';
-import Overview from '../Home/Overview/Overview';
-import Process from '../Home/Process/ProcessContainer/Process';
-import Users from '../Home/Users/Users';
+import Business from '../../components/Home/Business/Business';
+import Platform from '../../components/Home/Platform/Platform';
+import Overview from '../../components/Home/Overview/Overview';
+import Process from '../../components/Home/Process/ProcessContainer/Process';
+import Users from '../../components/Home/Users/Users';
 
-export default function Layout() {
+export default function Home() {
 
 
   return (
