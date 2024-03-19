@@ -1,0 +1,38 @@
+.slick-dots li.slick-active button:before {
+  color: #FF6057;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.MuiMenu-paper.MuiMenu-paper.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper,
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation8.MuiPopover-paper.MuiMenu-paper.MuiMenu-paper.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  top: '90px !important'
+}
+
+@media only screen and (min-width: 900px) {
+  .img-position {
+    position: absolute;
+    right: -172px;
+    top: -69px;
+    width: 76%;
+  }
+
+  .img-left-position {
+    position: absolute;
+    left: -193px;
+    top: -90px;
+    width: 76%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  .img-position,
+  .img-left-position {
+    width: 100%;
+  }
+
+  .colorful {
+
+    color: white;
+    text-shadow: 2px 0 #FF6057, -2px 0 #FF6057, 0 2px #FF6057, 0 -2px #FF6057,
+      1px 1px #FF6057, -1px -1px #FF6057, 1px -1px #FF6057, -1px 1px #FF6057;
+  }
+}
